@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "731310830648",
+    "firebase_url": "https://callreport-db547.firebaseio.com",
+    "project_id": "callreport-db547",
+    "storage_bucket": "callreport-db547.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731310830648:android:5a7df0215066229eede2cd",
+        "android_client_info": {
+          "package_name": "com.poilkar.nehank.callreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731310830648-luca86p6m4hqdaindf7q4bm4adk16teo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poilkar.nehank.callreport",
+            "certificate_hash": "8ba56840417bdf206340588a6d78ce8aefc818a6"
+          }
+        },
+        {
+          "client_id": "731310830648-h6ucc4j85sp72bj855cjt9dss1h4jp02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqEHXQzK1cerrroskLnPotg1uCz33Udio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731310830648-h6ucc4j85sp72bj855cjt9dss1h4jp02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

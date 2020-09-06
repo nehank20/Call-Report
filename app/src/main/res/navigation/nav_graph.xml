@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/callsRecordFragment">
+
+    <fragment
+        android:id="@+id/callsRecordFragment"
+        android:name="com.poilkar.nehank.callreport.ui.fragments.CallsRecordFragment"
+        android:label="fragment_calls_record"
+        tools:layout="@layout/fragment_calls_record" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.poilkar.nehank.callreport.ui.fragments.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_calendarFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.poilkar.nehank.callreport.ui.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>
